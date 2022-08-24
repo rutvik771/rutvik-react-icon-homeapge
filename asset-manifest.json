@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.b50198e9.js",
-    "static/js/787.f6db2e83.chunk.js": "/static/js/787.f6db2e83.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.b50198e9.js.map": "/static/js/main.b50198e9.js.map",
-    "787.f6db2e83.chunk.js.map": "/static/js/787.f6db2e83.chunk.js.map"
+    "main.css": "/rutvik-react-icon-homeapge/static/css/main.073c9b0a.css",
+    "main.js": "/rutvik-react-icon-homeapge/static/js/main.30d180a0.js",
+    "static/js/787.f6db2e83.chunk.js": "/rutvik-react-icon-homeapge/static/js/787.f6db2e83.chunk.js",
+    "static/media/logo.svg": "/rutvik-react-icon-homeapge/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/rutvik-react-icon-homeapge/index.html",
+    "main.073c9b0a.css.map": "/rutvik-react-icon-homeapge/static/css/main.073c9b0a.css.map",
+    "main.30d180a0.js.map": "/rutvik-react-icon-homeapge/static/js/main.30d180a0.js.map",
+    "787.f6db2e83.chunk.js.map": "/rutvik-react-icon-homeapge/static/js/787.f6db2e83.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.b50198e9.js"
+    "static/js/main.30d180a0.js"
   ]
 }
