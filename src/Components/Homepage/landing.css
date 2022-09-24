@@ -1,0 +1,42 @@
+#homapge .home-title{
+  font-weight: 400;  
+}
+
+#homapge .sub-title{
+    margin: 25px 0px;
+    font-size: 1.7rem;
+  }
+
+  #homapge .npm-copy{
+    background-color: rgb(46, 45, 45);
+    width: 100%;
+    border-radius: 15px;
+    color: white;
+  }
+  #homapge .npm-copy-text{
+    padding: 1.5rem 1.2rem;
+    word-spacing: 3px;
+    letter-spacing: 0.07rem;
+    font-weight: 300;
+  }
+
+  #homapge .button-copy{
+    float: right;
+    border-radius: 0px;
+    border: none;
+    background-color:rgb(46, 45, 45); 
+    display: inline;
+    color: white;
+    border: none;
+    outline: none;
+  }
+
+  #homapge .demo-container{
+    width: 100%;
+  }
+
+  #homapge .demo-img{
+    height: 100%;;
+    width: 100%;
+    border-radius: 1rem;
+  }

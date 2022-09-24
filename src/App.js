@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import { Logo } from './Components/Logo';
+import { Router } from './Router';
+
 
 function App() {
   return (
-    <>
-    <Logo/>
-    </>
+    <div className='wrapper'>
+    <Router/>
+    </div>
   );
 }
 
