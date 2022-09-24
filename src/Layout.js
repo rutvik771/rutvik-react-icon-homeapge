@@ -11,8 +11,8 @@ export const Layout = () => {
   return (
     <>
     <Sidebar/>
+     {/* <Landing_page/> */}
      <Outlet/>
-     <Landing_page/>
     {/* <Money_file/>
     <Archiv_file/> */}
    {/* <Header/>

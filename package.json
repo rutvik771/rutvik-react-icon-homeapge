@@ -1,7 +1,6 @@
 {
   "name": "icon-homepage",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://rutvik771.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

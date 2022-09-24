@@ -42,7 +42,8 @@ export const Router = () => {
     <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout/>}>
-          {/* <Route path="/" element={<Landing_page/>}/>  */}
+          <Route path="/" element={<Landing_page/>}/>
+          <Route path="/home" element={<Landing_page/>}/> 
           <Route path="money" element={<Money/>}/>
           <Route path="archiv" element={<Archiv/>}/> 
           <Route path="arrow" element={<Arrow/>}/>  

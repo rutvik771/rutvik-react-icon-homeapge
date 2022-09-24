@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Sidebar = () => {
   var link_list = [
-    { route: "", name: "Home" },
+    { route: "home", name: "Home" },
     { route: "money", name: "Money" },
     { route: "video_audio", name: "Video , Audio , Image" },
     { route: "email_msg", name: "Emails , Messages" },
