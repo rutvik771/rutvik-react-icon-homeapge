@@ -27,7 +27,7 @@ import {
   SaveAddOutlined,
   SaveMinusOutlined,
   SaveRemoveOutlined,
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Archiv = () => {
   const [copied, setcopied] = useState(false);

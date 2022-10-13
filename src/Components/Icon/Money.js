@@ -159,7 +159,7 @@ import {
   WalletRemoveOutlined,
   WalletSearchOutlined,
   WalletOutlined,
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Money = () => {
   const [copied, setcopied] = useState(false);

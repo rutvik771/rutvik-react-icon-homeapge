@@ -27,7 +27,7 @@ import {
 
 
     
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Notification = () => {
   const [copied, setcopied] = useState(false);

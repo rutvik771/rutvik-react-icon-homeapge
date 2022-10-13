@@ -29,7 +29,7 @@ import {
   TruckTickOutlined,
   TruckTimeOutlined,
   TruckOutlined,
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Delivery = () => {
   const [copied, setcopied] = useState(false);

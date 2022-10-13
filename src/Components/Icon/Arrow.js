@@ -133,7 +133,7 @@ import {
   SendSquareOutlined,
   SendOutlined,
   UndoOutlined,
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Arrow = () => {
   const [copied, setcopied] = useState(false);

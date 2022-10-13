@@ -207,7 +207,7 @@ import {
     ,ZoomOutlined
     
     
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Social_media = () => {
   const [copied, setcopied] = useState(false);

@@ -165,7 +165,7 @@ import {
   ,VolumeMuteOutlined
   ,VolumeSlashOutlined
  , VolumeUpOutlined
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Video_audio = () => {
   const [copied, setcopied] = useState(false);

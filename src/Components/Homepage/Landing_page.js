@@ -19,10 +19,10 @@ export const Landing_page = () => {
           <div className="sub-title">Installation</div>
           <div className="npm-copy">
             <p className="npm-copy-text">
-              npm install react-icons --save{" "}
+              npm install react-icon-cx --save
               <p className="button-copy">
                 <CopyToClipboard
-                  text="npm install react-icons --save"
+                  text="npm install react-icon-cx --save"
                   onCopy={copy}
                 >
                   <button className="button-copy">copy</button>

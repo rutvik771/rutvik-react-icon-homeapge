@@ -58,7 +58,7 @@ import {
     
 
     
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Support_like = () => {
   const [copied, setcopied] = useState(false);

@@ -36,7 +36,7 @@ import {
 
 
     
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Time = () => {
   const [copied, setcopied] = useState(false);

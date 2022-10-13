@@ -24,7 +24,7 @@ import {
 
 
     
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Call = () => {
   const [copied, setcopied] = useState(false);

@@ -76,7 +76,7 @@ import {
    , SmsTrackingOutlined
    , SmsOutlined
     
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Email_msg = () => {
   const [copied, setcopied] = useState(false);

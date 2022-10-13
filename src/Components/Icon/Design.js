@@ -105,7 +105,7 @@ import {
 ,SizeOutlined
 
 
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Design = () => {
   const [copied, setcopied] = useState(false);

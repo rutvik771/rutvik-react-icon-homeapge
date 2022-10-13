@@ -76,7 +76,7 @@ import {
 
  
       
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Type_para = () => {
   const [copied, setcopied] = useState(false);

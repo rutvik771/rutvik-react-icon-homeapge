@@ -105,7 +105,7 @@ import {
 
 
     
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Computer = () => {
   const [copied, setcopied] = useState(false);

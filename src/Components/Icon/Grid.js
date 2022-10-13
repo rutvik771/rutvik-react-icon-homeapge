@@ -97,7 +97,7 @@ import {
 
 
     
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Grid = () => {
   const [copied, setcopied] = useState(false);

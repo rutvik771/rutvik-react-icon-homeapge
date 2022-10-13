@@ -25,7 +25,7 @@ import {
 ,SearchZoomOutOutlined
 
     
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Search = () => {
   const [copied, setcopied] = useState(false);

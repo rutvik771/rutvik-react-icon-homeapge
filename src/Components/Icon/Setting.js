@@ -39,7 +39,7 @@ import {
     ,ToggleOnOutlined
     
     
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Setting = () => {
   const [copied, setcopied] = useState(false);

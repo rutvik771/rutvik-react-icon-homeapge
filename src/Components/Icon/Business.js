@@ -45,7 +45,7 @@ import {
     ,TrendUpOutlined
     
       
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Business = () => {
   const [copied, setcopied] = useState(false);

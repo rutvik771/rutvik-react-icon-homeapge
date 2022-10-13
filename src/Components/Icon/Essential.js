@@ -205,7 +205,7 @@ import {
    , WifiSquareOutlined
    , WifiOutlined 
     
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Essential = () => {
   const [copied, setcopied] = useState(false);

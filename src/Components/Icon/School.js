@@ -39,7 +39,7 @@ import {
 
 
     
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const School = () => {
   const [copied, setcopied] = useState(false);

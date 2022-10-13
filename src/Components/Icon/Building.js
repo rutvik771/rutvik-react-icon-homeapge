@@ -26,7 +26,7 @@ import {
     ,House2Outlined
     ,HouseOutlined
     
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Building = () => {
   const [copied, setcopied] = useState(false);

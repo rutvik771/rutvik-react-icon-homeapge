@@ -73,7 +73,7 @@ import {
 ,StickynoteOutlined
 ,TaskSquareOutlined
 ,TaskOutlined   
-} from "rutvik-react-icon";
+} from "react-icon-cx";
 
 export const Content_edit = () => {
   const [copied, setcopied] = useState(false);
