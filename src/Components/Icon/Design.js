@@ -97,7 +97,6 @@ import {
 ,PenTool2Outlined
 ,PenToolOutlined
 ,RecoveryConvertOutlined
-,RulerpenOutlined
 ,RulerOutlined
 ,ScissorOutlined
 ,Shapes1Outlined
@@ -145,7 +144,6 @@ export const Design = () => {
     { icon: <MaskBold/>, icon_name: 'MaskBold' },
     { icon: <OmegaCircleBold/>, icon_name: 'OmegaCircleBold' },
     { icon: <OmegaSquareBold/>, icon_name: 'OmegaSquareBold' },
-    // { icon: <PaintbucketBold/>, icon_name: 'PaintbucketBold' },
     { icon: <Path2Bold/>, icon_name: 'Path2Bold' },
     { icon: <PathSquareBold/>, icon_name: 'PathSquareBold' },
     { icon: <PathBold/>, icon_name: 'PathBold' },
@@ -155,7 +153,6 @@ export const Design = () => {
     { icon: <PenTool2Bold/>, icon_name: 'PenTool2Bold' },
     { icon: <PenToolBold/>, icon_name: 'PenToolBold' },
     { icon: <RecoveryConvertBold/>, icon_name: 'RecoveryConvertBold' },
-    // { icon: <RulerpenBold/>, icon_name: 'RulerpenBold' },
     { icon: <RulerBold/>, icon_name: 'RulerBold' },
     { icon: <ScissorBold/>, icon_name: 'ScissorBold' },
     { icon: <Shapes1Bold/>, icon_name: 'Shapes1Bold' },
@@ -189,7 +186,7 @@ export const Design = () => {
     { icon: <ColorSwatchOutlined/>, icon_name: 'ColorSwatchOutlined' },
     { icon: <ColorfilterOutlined/>, icon_name: 'ColorfilterOutlined' },
     {
-      icon: '<ColorsSquareOutlined/>',
+      icon: <ColorsSquareOutlined/>,
       icon_name: 'ColorsSquareOutlined'
     },
     { icon: <ComponentOutlined/>, icon_name: 'ComponentOutlined' },
@@ -225,7 +222,6 @@ export const Design = () => {
       icon: <RecoveryConvertOutlined/>,
       icon_name: 'RecoveryConvertOutlined'
     },
-    // { icon: <RulerpenOutlined/>, icon_name: 'RulerpenOutlined' },
     { icon: <RulerOutlined/>, icon_name: 'RulerOutlined' },
     { icon: <ScissorOutlined/>, icon_name: 'ScissorOutlined' },
     { icon: <Shapes1Outlined/>, icon_name: 'Shapes1Outlined' },
