@@ -5379,7 +5379,7 @@ License - nucleoapp.com/license/
 
     display: flex;
     justify-content: center;
-    height: 40px;
+    font-size: 1.8rem;
     margin: 8px;
 }
 
@@ -5403,3 +5403,177 @@ License - nucleoapp.com/license/
     margin:2rem 0rem;
 }
 
+/* sidebar */
+
+#desktop-navbar {
+	background-color: #222629;
+	color: #CECFD2;
+}
+#desktop-navbar .logo {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Lato-regular";
+}
+
+#desktop-navbar .navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  background-color: #222629;
+  z-index: 1000;
+}
+#desktop-navbar .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Lato-regular";
+  font-size: 1.2rem;
+}
+#desktop-navbar a {
+  padding: 0 2rem;
+  color: #9fa1bf;
+}
+#desktop-navbar  a:hover {
+	color: #86C232;
+}
+#desktop-navbar a.active {
+	color: #86C232;
+}
+
+#mobile-navbar .mobile-navbar{
+	display: none;
+}
+@media (max-width: 768px) {
+    .main-panel {
+        padding-top: 4rem;
+    }
+	.sidebar {
+		display: none;
+	}
+
+   .tb-row{
+        grid-column-gap: 0.5rem;
+    }
+
+	#mobile-navbar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 100;
+		width: 100%;
+		background-color:#9368E9;
+		color: #ffff;
+	}
+	#mobile-navbar .mobile-navbar {
+		display: block;
+	}
+    #mobile-navbar .mobile-logo {
+		color: #ffff;
+        font-size: 1.2rem;
+	}
+
+	#mobile-navbar .mobile-navbar {
+		border-radius: 1.2rem;
+		transform: none;
+		transform-origin: 50% 50% 0px;
+	}
+
+	#mobile-navbar .mobile-navbar .navbar-container {
+		display: flex;
+		padding: 1rem;
+		align-items: center;
+		justify-content: space-between;
+	}
+	/* #mobile-navbar .logo{
+		font-size: 1rem;
+		font-weight: 600;
+		font-family: "Lato-regular";
+	} */
+
+	#mobile-navbar .mobile-navbar .hamburger {
+		display: block;
+		cursor: pointer;
+	}
+
+	#mobile-navbar .mobile-navbar .hamburger .line {
+		width: 20px;
+		height: 3px;
+		border-radius: 5px;
+		background-color: #ffff;
+		margin: 5px 0;
+		transition: 0.4s;
+	}
+
+	#mobile-navbar .mobile-navbar .hamburger:hover .line {
+		background-color: #CECFD2;
+	}
+
+	#mobile-navbar .mobile-navbar .hamburger .active:nth-child(1) {
+		transform: rotate(-45deg) translate(-3px, 8px);
+	}
+
+	#mobile-navbar .mobile-navbar .hamburger .active:nth-child(2) {
+		opacity: 0;
+	}
+
+	#mobile-navbar .mobile-navbar .hamburger .active:nth-child(3) {
+		transform: rotate(45deg) translate(-3px, -8px);
+	}
+	#mobile-navbar .mobile-navbar .nav-links .nav-link {
+		padding: 1rem 1rem;
+		font-size: 1.1rem;
+		font-weight: 400;
+		color: #ffff;
+		display: block;
+		transition: height 0.5s ease;
+	}
+	#mobile-navbar .mobile-navbar .nav-links a:hover {
+		color: rgb(255, 255, 255,0.6);
+		transition: height 0.5s ease;
+	}
+	#mobile-navbar .mobile-navbar .nav-links .nav-link {
+		padding: 0.5rem 1rem;
+		font-size: 1.1rem;
+		font-weight: 400;
+		color: #ffff;
+		display: block;
+		transition: height 0.5s ease;
+	}
+
+	#mobile-navbar .mobile-navbar .nav-links {
+		height: 0;
+		overflow: hidden;
+		transition: all 0.3s ease;
+	}
+
+	#mobile-navbar .mobile-navbar .nav-links.active {
+		height: 100vh;
+		display: block;
+        overflow: scroll;
+	}
+}
+
+@media (max-width: 576px) {
+	#mobile-navbar .logo{
+		font-size: 1rem;
+	}
+    .tb-container{
+        margin: 2rem 0.8rem;
+    }
+    .tb-content-bold{
+        margin: 1rem 0rem;
+    }
+    .tb-content-bold h2{
+        font-size: 30px;
+    }
+    .tb-content-outlined {
+        margin: 1rem 0rem;
+    }
+    
+   .tb-row{
+    grid-column-gap: 0rem;
+}
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 
 export const Sidebar = () => {
@@ -35,6 +35,17 @@ export const Sidebar = () => {
     { route: "search", name: "Search" },
     { route: "time", name: "Time" },
   ];
+
+  const hamburger = useRef();
+
+  const openNavbar = () => {
+    const navLinks = document.querySelector(".nav-links");
+    const lines = document.querySelectorAll(".line");
+    navLinks?.classList.toggle("active");
+    lines.forEach((line) => {
+      line.classList.toggle("active");
+    });
+  };
   return (
     <>
       <div
@@ -53,7 +64,6 @@ export const Sidebar = () => {
               return (
                 <li>
                   <Link className="link" to={e.route}>
-                    {/* <i className="pe-7s-graph" /> */}
                     <p>{e.name}</p>
                   </Link>
                 </li>
@@ -61,6 +71,33 @@ export const Sidebar = () => {
             })}
           </ul>
         </div>
+      </div>
+      <div
+        id="mobile-navbar"
+        data-color="purple"
+        data-image="assets/img/sidebar-5.jpg"
+      >
+        <nav className="mobile-navbar">
+          <div className="navbar-container">
+            <Link className="mobile-logo" to="/">
+              Icon Gallary
+            </Link>
+            <div className="hamburger" onClick={openNavbar} ref={hamburger}>
+              <div className="line"></div>
+              <div className="line"></div>
+              <div className="line"></div>
+            </div>
+          </div>
+          <div className="nav-links">
+            {link_list.map((e) => {
+              return (
+                <Link onClick={openNavbar} to={e.route} className="nav-link">
+                  <p>{e.name}</p>
+                </Link>
+              );
+            })}
+          </div>
+        </nav>
       </div>
     </>
   );

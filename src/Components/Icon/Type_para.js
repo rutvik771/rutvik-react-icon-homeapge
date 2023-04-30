@@ -82,7 +82,7 @@ export const Type_para = () => {
   const [copied, setcopied] = useState(false);
 
   const type_paragraph_bold =  [
-    { icon: <AttachCircleBold/>, icon_name: 'AttachCircleBold' },
+    { icon: <AttachCircleBold />, icon_name: 'AttachCircleBold' },
     { icon: <AttachSquareBold/>, icon_name: 'AttachSquareBold' },
     { icon: <EraserBold/>, icon_name: 'EraserBold' },
     { icon: <FirstlineBold/>, icon_name: 'FirstlineBold' },
@@ -132,7 +132,7 @@ export const Type_para = () => {
   ]
   const type_paragraph_outlined =  [
     {
-      icon: <AttachCircleOutlined/>,
+      icon: <AttachCircleOutlined />,
       icon_name: 'AttachCircleOutlined'
     },
     {

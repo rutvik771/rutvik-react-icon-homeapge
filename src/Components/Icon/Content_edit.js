@@ -79,7 +79,7 @@ export const Content_edit = () => {
   const [copied, setcopied] = useState(false);
 
   const content_edit_bold =  [
-    { icon: <ArchiveBookBold/>, icon_name: 'ArchiveBookBold' },
+    { icon: <ArchiveBookBold />, icon_name: 'ArchiveBookBold' },
     { icon: <BillBold/>, icon_name: 'BillBold' },
     { icon: <ClipboardCloseBold/>, icon_name: 'ClipboardCloseBold' },
     { icon: <ClipboardExportBold/>, icon_name: 'ClipboardExportBold' },
@@ -125,7 +125,7 @@ export const Content_edit = () => {
     { icon: <TaskBold/>, icon_name: 'TaskBold' }
   ]
   const content_edit_outlined =  [
-    { icon: <ArchiveBookOutlined/>, icon_name: 'ArchiveBookOutlined' },
+    { icon: <ArchiveBookOutlined />, icon_name: 'ArchiveBookOutlined' },
     { icon: <BillOutlined/>, icon_name: 'BillOutlined' },
     {
       icon: <ClipboardCloseOutlined/>,

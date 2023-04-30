@@ -110,7 +110,7 @@ export const Design = () => {
   const [copied, setcopied] = useState(false);
 
   const design_tool_bold =  [
-    { icon: <AdditemBold/>, icon_name: 'AdditemBold' },
+    { icon: <AdditemBold />, icon_name: 'AdditemBold' },
     { icon: <BackwardItemBold/>, icon_name: 'BackwardItemBold' },
     { icon: <BezierBold/>, icon_name: 'BezierBold' },
     { icon: <Blend2Bold/>, icon_name: 'Blend2Bold' },

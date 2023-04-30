@@ -171,7 +171,7 @@ export const Video_audio = () => {
   const [copied, setcopied] = useState(false);
 
   const video_audio_bold =  [
-    { icon: <AudioSquareBold/>, icon_name: 'AudioSquareBold' },
+    { icon: <AudioSquareBold />, icon_name: 'AudioSquareBold' },
     {
       icon: <Backward10SecondsBold/>,
       icon_name: 'Backward10SecondsBold'
@@ -278,7 +278,7 @@ export const Video_audio = () => {
     { icon: <VolumeUpBold/>, icon_name: 'VolumeUpBold' }
   ]
   const video_audio_outlined =  [
-    { icon: <AudioSquareOutlined/>, icon_name: 'AudioSquareOutlined' },
+    { icon: <AudioSquareOutlined />, icon_name: 'AudioSquareOutlined' },
     {
       icon: <Backward10SecondsOutlined/>,
       icon_name: 'Backward10SecondsOutlined'

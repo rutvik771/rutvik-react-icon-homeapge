@@ -33,7 +33,7 @@ export const Archiv = () => {
   const [copied, setcopied] = useState(false);
 
   const archiv_bold = [
-    { icon: <ArchiveAddBold />, icon_name: "ArchiveAddBold" },
+    { icon: <ArchiveAddBold/>, icon_name: "ArchiveAddBold" },
     { icon: <ArchiveMinusBold />, icon_name: "ArchiveMinusBold" },
     { icon: <ArchiveSlashBold />, icon_name: "ArchiveSlashBold" },
     { icon: <ArchiveTickBold />, icon_name: "ArchiveTickBold" },

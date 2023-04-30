@@ -309,13 +309,13 @@ export const Essential = () => {
     { icon: <TrushSquareBold/>, icon_name: 'TrushSquareBold' },
     { icon: <VerifyBold/>, icon_name: 'VerifyBold' },
     { icon: <Warning2Bold/>, icon_name: 'Warning2Bold' },
-    { icon: <WeightBold/>, icon_name: 'WeightBold' },
+    { icon: <WeightBold  fill="green"/>, icon_name: 'WeightBold' },
     { icon: <WifiSquareBold/>, icon_name: 'WifiSquareBold' }
   ]
 
   const essential_outlined =  [
     // { icon: <3dcubeOutlined/>', icon_name: '3dcubeOutlined' },
-    { icon: <AddCircleOutlined/>, icon_name: 'AddCircleOutlined' },
+    { icon: <AddCircleOutlined />, icon_name: 'AddCircleOutlined' },
     { icon: <AddSquareOutlined/>, icon_name: 'AddSquareOutlined' },
     { icon: <AddOutlined/>, icon_name: 'AddOutlined' },
     { icon: <ArchiveOutlined/>, icon_name: 'ArchiveOutlined' },

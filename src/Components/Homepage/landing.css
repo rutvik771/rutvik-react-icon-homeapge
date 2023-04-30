@@ -35,8 +35,30 @@
     width: 100%;
   }
 
-  #homapge .demo-img{
+  #homapge .desktop-demo-img{
     height: 100%;;
     width: 100%;
     border-radius: 1rem;
+  }
+  #homapge .mobile-demo-img{
+    height: 0%;
+    width: 0%;
+
+  }
+
+  @media (max-width: 576px) {
+    #homapge .npm-copy-text{
+      padding: 1.5rem 0.8rem;
+      word-spacing: 2px;
+      letter-spacing: 0.03rem;
+      font-weight: 300;
+    }
+    #homapge .desktop-demo-img{
+      display: none;
+    }
+    #homapge .mobile-demo-img{
+      height: 100%;;
+      width: 100%;
+      border-radius: 1rem;
+    }
   }

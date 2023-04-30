@@ -82,7 +82,7 @@ export const Email_msg = () => {
   const [copied, setcopied] = useState(false);
 
   const email_msg_bold =  [
-    { icon: <DeviceMessageBold/>, icon_name: 'DeviceMessageBold' },
+    { icon: <DeviceMessageBold />, icon_name: 'DeviceMessageBold' },
     { icon: <DirectInboxBold/>, icon_name: 'DirectInboxBold' },
     { icon: <DirectNormalBold/>, icon_name: 'DirectNormalBold' },
     {

@@ -95,7 +95,7 @@ export const Weather = () => {
     { icon: <SunFogOutlined/>, icon_name: 'SunFogOutlined' },
     { icon: <SunOutlined/>, icon_name: 'SunOutlined' },
     { icon: <Wind2Outlined/>, icon_name: 'Wind2Outlined' },
-    { icon: <WindOutlined/>, icon_name: 'WindOutlined' }
+    { icon: <WindOutlined />, icon_name: 'WindOutlined' }
   ]
   
 
